@@ -1,0 +1,26 @@
+---
+title: "Compiling Advanced R"
+author: "Yuen Tsz Abby Lau"
+date: "9/12/2020"
+output: pdf_document
+---
+
+## Missing Packages
+
+I had to download some missing packages including `bench`, `lobstr`, and `emo`.
+
+
+## Downloaded pandoc-citeproc
+
+I need to install ("brew install pandoc-citeproc)
+this on my laptop so that the bib file can be rendered. 
+
+
+## Font Inconsolata
+
+It seems that in the "main.tex", for the font command, one of the lines has 
+"Inconsolata" with a capital "I" instead of "inconsolata".  As a result, this 
+font cannot be recognized.  I modified the command in the "main.tex" file.
+
+
+
